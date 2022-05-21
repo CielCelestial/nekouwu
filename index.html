@@ -19,7 +19,7 @@
         <div class="container"><img class="float-start" src="assets/img/nekouwuxyz.png" style="font-size: 10px;width: 190px;" width="0" height="40"><a class="navbar-brand" href="#" style="background: url(&quot;assets/img/nekouwuxyz.png&quot;);"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarResponsive"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item2"><a class="nav-link2" href="#">Server: Online</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Server: Online</a></li>
                     <li class="nav-item"><a class="nav-link" href="https://discord.neko-uwu.xyz/">Discord</a></li>
                 </ul>
             </div>
@@ -45,7 +45,7 @@
         port: 25565 // optional, only if you need a custom port
     }, function (err, status) {
         if (err) {
-            return document.querySelector('.nav-item2').innerHTML = 'Server: Offline';
+            return document.querySelector('.nav-link').innerHTML = 'Server: Offline';
         }
     });
 </script>
